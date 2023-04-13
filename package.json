@@ -1,0 +1,19 @@
+{
+  "name": "blank",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev index.ts",
+    "build": "tsc",
+    "prod": "node dist/index.js"
+  },
+  "dependencies": {
+    "@geckos.io/server": "^2.3.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
